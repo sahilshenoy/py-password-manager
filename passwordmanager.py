@@ -36,9 +36,9 @@ def login():
         while count < 3:
             if count=="1":
                 print("You've two chances left.")
-            elif i=="second":
+            elif count=="second":
                 print("You have one chnace left")
-            elif i=="third":
+            elif count=="third":
                 print("You've zero chances left. Try again after 20 seconds")
                 count=1
                 while count<20:
